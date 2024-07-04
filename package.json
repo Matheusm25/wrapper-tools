@@ -3,6 +3,10 @@
   "displayName": "Wrapper Tools",
   "description": "Some wrapper commands to help on daily tasks",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Matheusm25/wrapper-tools"
+  },
   "engines": {
     "vscode": "^1.90.0"
   },
