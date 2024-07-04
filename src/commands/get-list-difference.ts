@@ -11,7 +11,7 @@ export function getListDifference() {
 
   const lists: Array<Array<string>> = [];
 
-  document.split('\n\n').forEach((list) => {
+  document.split('\n\n').filter(list => list.length).forEach((list) => {
     lists.push(list.split('\n'));
   });
 
